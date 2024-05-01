@@ -1,6 +1,6 @@
 ---
-title: "Example Guide"
-description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
+title: "Hola Mundo en Python"
+description: "Múltiples formas de imprimir un Hola Mundo en Python."
 summary: ""
 date: 2023-09-07T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
@@ -14,8 +14,66 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.
+Podemos escribir un **Hola Mundo** en ```Python``` de muchas formas.
 
-## Further reading
+¿Se te ocurre algúna nueva?
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+### Method 1
+```python
+print("Hello world")
+```
+
+### Method 2
+```python
+print('Hello' + 'world')
+```
+
+### Method 3
+```python
+print('Hello' + 'world')
+```
+
+### Method 4
+```python
+print('Hello', 'world')
+```
+
+### Method 5
+```python
+print('{} {}'.format('Hello','world'))
+```
+
+### Method 6
+```python
+word1 = 'Hello'
+word2 = 'World¡
+print(f'{word1} {word2})
+```
+
+### Method 7
+```python
+a = "!dlrow olleH"
+b = a[::-1]
+print(b)
+```
+
+### Method 8
+```python
+str = "!dlrow olleH"
+print(''.join(reversed(str)))
+```
+
+### Method 9
+```python
+def greeting():
+    print("Hello world!")
+
+if __name__ == "__main__":
+    greeting()
+```
+
+### Method 10
+```python
+while True: print('Hello world'); break
+```
+
