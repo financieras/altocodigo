@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
-    <lastBuildDate>Tue, 27 Feb 2024 09:30:56 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 02 May 2024 09:49:13 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example Post</title>
@@ -21,7 +21,7 @@
       <link>http://localhost:1313/docs/guides/example-guide/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
       <guid>http://localhost:1313/docs/guides/example-guide/</guid>
-      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
+      <description>Hello. El servidor de desarrollo se incia con:&#xA;yarn dev&#xD;Segundo Nivel Londres París Tercer Nivel Tierra Agua Fuego Cuarto Nivel Hello there my friend</description>
     </item>
     <item>
       <title>Example Reference</title>
@@ -29,6 +29,20 @@
       <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
       <guid>http://localhost:1313/docs/reference/example-reference/</guid>
       <description>Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.</description>
+    </item>
+    <item>
+      <title>Faq</title>
+      <link>http://localhost:1313/docs/guides/faq/</link>
+      <pubDate>Thu, 02 May 2024 09:49:13 +0200</pubDate>
+      <guid>http://localhost:1313/docs/guides/faq/</guid>
+      <description>Hola&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Hola_mundo</title>
+      <link>http://localhost:1313/docs/hola_mundo/</link>
+      <pubDate>Thu, 02 May 2024 09:40:59 +0200</pubDate>
+      <guid>http://localhost:1313/docs/hola_mundo/</guid>
+      <description>Hi.</description>
     </item>
     <item>
       <title>Resources</title>

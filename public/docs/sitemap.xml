@@ -16,6 +16,13 @@
     </url>
     
     <url>
+      <loc>http://localhost:1313/docs/hola_mundo/</loc>
+      <lastmod>2024-05-02T09:40:59+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
       <loc>http://localhost:1313/docs/resources/</loc>
       <lastmod>2024-02-27T09:30:56+01:00</lastmod>
       <changefreq>monthly</changefreq>
@@ -24,6 +31,12 @@
     <url>
         <loc>http://localhost:1313/docs/guides/example-guide/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://localhost:1313/docs/guides/faq/</loc>
+        <lastmod>2024-05-02T09:49:13+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
