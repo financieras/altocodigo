@@ -14,10 +14,10 @@
 
 <link rel="stylesheet" href="/main.01b0834d5af51b24812d02878d09c8d7677d6b8af13164fb50215889dc19aaefd0e9366c13b45a9a57ae481dfd1836bce46b5ebfe461d56e3498b9443d8c5e27.css" integrity="sha512-AbCDTVr1GySBLQKHjQnI12d9a4rxMWT7UCFYidwZqu/Q6TZsE7RamleuSB39GDa85Gtev&#43;Rh1W40mLlEPYxeJw==" crossorigin="anonymous">
 
-<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/docs/hola_mundo/">
-  <link rel="canonical" href="http://localhost:1313/docs/hola_mundo/">
-<title>Hola_mundo  |  My Docs</title>
-<meta name="description" content="Congrats on setting up a new Doks project!">
+<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/blog/example-post-1/">
+  <link rel="canonical" href="http://localhost:1313/blog/example-post-1/">
+<title>Example Post 1  |  My Docs</title>
+<meta name="description" content="Just an example post.">
 
     
     <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -43,16 +43,16 @@
         type="image/png"
       >
 <link rel="manifest" href="/manifest.webmanifest">
-<meta property="og:title" content="Hola_mundo">
-<meta property="og:description" content="Hi.">
+<meta property="og:title" content="Example Post 1">
+<meta property="og:description" content="Just an example post.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://localhost:1313/docs/hola_mundo/"><meta property="og:image" content="http://localhost:1313/cover.png"><meta property="article:section" content="docs">
-<meta property="article:published_time" content="2024-05-02T09:40:59+02:00">
-<meta property="article:modified_time" content="2024-05-02T09:40:59+02:00"><meta property="og:site_name" content="My Docs">
+<meta property="og:url" content="http://localhost:1313/blog/example-post-1/"><meta property="og:image" content="http://localhost:1313/cover.png"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2023-09-07T16:27:22+02:00">
+<meta property="article:modified_time" content="2023-09-07T16:27:22+02:00"><meta property="og:site_name" content="My Docs">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://localhost:1313/cover.png"><meta name="twitter:title" content="Hola_mundo">
-<meta name="twitter:description" content="Hi.">
+<meta name="twitter:image" content="http://localhost:1313/cover.png"><meta name="twitter:title" content="Example Post 1">
+<meta name="twitter:description" content="Just an example post.">
 <meta name="twitter:site" content="@getdoks">
 
     
@@ -69,18 +69,51 @@
      },
      {
        "@type": "ListItem",
-       "item": "http://localhost:1313/docs/",
-       "name": "Docs",
+       "item": "http://localhost:1313/blog/",
+       "name": "Blogs",
        "position": 2
      },
      {
        "@type": "ListItem",
-       "name": "Hola Mundo",
+       "name": "Example Post 1",
        "position": 3
      }
    ]
  }
 </script>
+  
+	
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Example Post 1",
+      "description": "Just an example post.",
+      "isPartOf": {
+        "@id": "http://localhost:1313/blog/example-post-1/"
+      },
+      "mainEntityOfPage": {
+        "@id": "http://localhost:1313/blog/example-post-1/"
+      },
+      "datePublished": "2023-09-07T16:27:22+02:00",
+      "dateModified": "2023-09-07T16:27:22+02:00",
+      "author": {
+        "@type": "Organization",
+        "name": "Hyas",
+        "url": "http://localhost:1313/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Hyas"
+      }
+    }
+  ]
+}
+</script>
+
 
 
 
@@ -89,7 +122,7 @@
 </head>
 
   
-  <body class="single section docs" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+  <body class="single section blog" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
     <div class="sticky-top">
 <header class="navbar navbar-expand-lg">
   <div class="container-lg">
@@ -106,74 +139,6 @@
       </svg>
     </button>
     
-    <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection" aria-label="Open section navigation menu">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
-        <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
-        <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
-      </svg>
-    </button>
-    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection" aria-labelledby="offcanvasNavSectionLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavSectionLabel">Docs</h5>
-        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M18 6l-12 12"></path>
-            <path d="M6 6l12 12"></path>
-          </svg>
-        </button>
-      </div>
-      <div class="offcanvas-body">
-        <aside class="doks-sidebar mt-n3">
-          <nav id="doks-docs-nav" aria-label="Tertiary navigation">
-            
-  
-    
-<nav class="section-nav docs-links">
-  <ul class="list-unstyled">
-
-  <li>
-    <details open>
-      <summary>Guides</summary>
-      <ul class="list-unstyled list-nested">
-
-  <li>
-      <a href="/docs/guides/example-guide/">Example Guide</a>
-  </li>
-
-  <li>
-      <a href="/docs/guides/faq/">Faq</a>
-  </li>
-      </ul>
-    </details>
-  </li>
-
-  <li>
-    <details>
-      <summary>Reference</summary>
-      <ul class="list-unstyled list-nested">
-
-  <li>
-      <a href="/docs/reference/example-reference/">Example Reference</a>
-  </li>
-
-  <li>
-      <a href="/docs/reference/hola/">Hola</a>
-  </li>
-      </ul>
-    </details>
-  </li>
-  </ul>
-</nav>
-
-  
-
-          </nav>
-        </aside>
-      </div>
-    </div>
     
     <button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain" aria-label="Open main navigation menu">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -198,10 +163,10 @@
       
       <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
         <ul class="navbar-nav flex-grow-1"><li class="nav-item">
-                <a class="nav-link active" href="http://localhost:1313/docs/guides/example-guide/" aria-current="true">Docs</a>
+                <a class="nav-link" href="http://localhost:1313/docs/guides/example-guide/">Docs</a>
               </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost:1313/blog/">Blog</a>
+                <a class="nav-link active" href="http://localhost:1313/blog/" aria-current="true">Blog</a>
               </li>
             </ul>
 
@@ -294,116 +259,38 @@
       <div class="content">
       
         
-	<div class="row flex-xl-nowrap">
-		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
-			
-  
-    
-<nav class="section-nav docs-links">
-  <ul class="list-unstyled">
+<article>
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-10">
+    <div class="blog-header">
+      <h1>Example Post 1</h1>
+      <p>
+  <small>September 7, 2023<span class="stretched-link position-relative reading-time text-nowrap" title="Estimated reading time"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+        <path d="M12 7v5l3 3"></path>
+      </svg>1&nbsp;minute</span></small>
+</p>
 
-  <li>
-    <details open>
-      <summary>Guides</summary>
-      <ul class="list-unstyled list-nested">
+    </div>
+  </div>
+  <div class="col-md-12 col-lg-9">
+    <p class="lead">You can use blog posts for announcing product updates and features.</p><p>Well-thought-through product announcements will help increase feature awareness and engage users with new functionality. Just like <a href="https://canny.io/blog/should-you-have-a-public-roadmap/">sharing your public roadmap</a>, it&rsquo;s also a great way to let potential customers see that you&rsquo;re constantly improving.</p>
+<h2 id="further-reading">Further reading</h2>
+<ul>
+<li>Read <a href="https://canny.io/blog/announce-product-updates-features/">How to announce product updates and features</a></li>
+</ul>
 
-  <li>
-      <a href="/docs/guides/example-guide/">Example Guide</a>
-  </li>
-
-  <li>
-      <a href="/docs/guides/faq/">Faq</a>
-  </li>
-      </ul>
-    </details>
-  </li>
-
-  <li>
-    <details>
-      <summary>Reference</summary>
-      <ul class="list-unstyled list-nested">
-
-  <li>
-      <a href="/docs/reference/example-reference/">Example Reference</a>
-  </li>
-
-  <li>
-      <a href="/docs/reference/hola/">Hola</a>
-  </li>
-      </ul>
-    </details>
-  </li>
-  </ul>
-</nav>
-
-  
-
-		</div>
-		
-		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
-			<div class="page-links">
-  
+    </div>
 </div>
-
-		</nav>
-		<main class="docs-content col-lg-11 col-xl-9">
-		
-			<h1>Hola_mundo</h1>
-			
-			<nav class="toc-mobile d-xl-none" aria-label="Quaternary navigation">
-				
-			</nav>
-			<p>Hi.</p>
-
-			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
-				</div>
-			<div class="page-nav d-flex flex-column flex-sm-row">
-	
-	<div class="card w-100">
-			<div class="card-body d-flex">
-				<div class="d-flex flex-column justify-content-center">
-					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-left" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-						<path d="M5 12l14 0"></path>
-						<path d="M5 12l6 6"></path>
-						<path d="M5 12l6 -6"></path>
-				 	</svg>
-				</div>
-				<div class="d-flex flex-column">
-					<div class="text-body-secondary">Prev</div>
-					<a href="/docs/guides/faq/" class="stretched-link text-reset text-decoration-none">Faq</a>
-				</div>
-			</div>
-		</div>
-	<div class="m-2"></div>
-	<div class="card text-end w-100">
-			<div class="card-body d-flex justify-content-end">
-				<div class="d-flex flex-column">
-					<div class="text-body-secondary">Next</div>
-					<a href="/docs/resources/" class="stretched-link text-reset text-decoration-none">Resources</a>
-				</div>
-				<div class="d-flex flex-column justify-content-center">
-					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-						<path d="M5 12l14 0"></path>
-						<path d="M13 18l6 -6"></path>
-						<path d="M13 6l6 6"></path>
-					</svg>
-				</div>
-			</div>
-		</div>
-	</div>
-
-			
-		</main>
-		
-	</div>
+</article>
 
       
       </div>
     </div>
     
     
+
     <footer class="footer text-muted">
   <div class="container-lg">
     <div class="row">

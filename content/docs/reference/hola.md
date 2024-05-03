@@ -1,9 +1,9 @@
 ---
-title: "Docs"
+title: "Hola"
 description: ""
 summary: ""
-date: 2023-08-07T16:12:03+02:00
-lastmod: 2023-08-07T16:12:03+02:00
+date: 2024-05-02T12:21:15+02:00
+lastmod: 2024-05-02T12:21:15+02:00
 draft: false
 weight: 999
 toc: true
@@ -13,3 +13,5 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+## Saludos
+Esto es una prueba.

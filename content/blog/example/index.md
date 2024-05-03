@@ -1,5 +1,5 @@
 ---
-title: "Example Post"
+title: "Example Post 1"
 description: "Just an example post."
 summary: "You can use blog posts for announcing product updates and features."
 date: 2023-09-07T16:27:22+02:00
